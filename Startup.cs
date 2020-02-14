@@ -26,6 +26,8 @@ namespace aspserv1
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IMessageSender messageSender)
         {
             var str_rt = "wwww";
+            string heeli = "wwwdw d ";
+            string Ricoh34 = "LDLDDL";
 
             if (env.IsDevelopment())
             {
