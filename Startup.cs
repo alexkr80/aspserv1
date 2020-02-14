@@ -25,6 +25,8 @@ namespace aspserv1
         //public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IMessageSender messageSender)
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IMessageSender messageSender)
         {
+            var str_rt = "wwww";
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
